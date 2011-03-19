@@ -4,6 +4,8 @@
 #  }
 #end
 
+require_recipe 'delayed_job'
+
 # uncomment if you want to run postgres recipe
 #require_recipe 'postgres'
 
@@ -46,7 +48,7 @@
 #require_recipe "exim::auth"
 
 #uncomment to run the resque recipe
-require_recipe "resque"
+#require_recipe "resque"
 
 #uncomment to run the redis recipe
 #require_recipe "redis"
